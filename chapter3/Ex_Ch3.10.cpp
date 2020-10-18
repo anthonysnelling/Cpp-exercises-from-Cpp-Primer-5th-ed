@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+// This program removes punctuation from a string 
+
 int main(){
     string str;
     getline(cin,str);

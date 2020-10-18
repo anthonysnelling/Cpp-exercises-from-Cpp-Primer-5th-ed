@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// this program transforms a string to "X's"
 
 int main(){
     string str = "Hello There!";

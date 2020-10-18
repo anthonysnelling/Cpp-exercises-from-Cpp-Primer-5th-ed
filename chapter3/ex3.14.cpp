@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
+// This program takes in ints into a vector and the prints them
 
 int main(){
     vector<int> v1;
