@@ -1,7 +1,7 @@
-//This file is to test some things on my own.
 #include <iostream>
-#include <vector>
-#include <string>
+// This is a file that illustrates the way references can work
+// references are essentially an alias for another object, it is not an object itself
+// so references define another name for an object.
 
 int main(){
 
