@@ -17,5 +17,7 @@ int main(){
     
     std::cout << *p << std::endl;
 
+    //todo: elaborate more pointers and accessing objects. 
+
     return 0;
 }
