@@ -17,7 +17,14 @@ int main(){
     
     std::cout << *p << std::endl;
 
-    //todo: elaborate more pointers and accessing objects. 
+// pointers must point to an object of the same type!
+    double dVal; // OK
+    double *pd = &dVal; //OK
+    double *pd2 = pd; // OK
+    // int *pi = pd; // this would cause an error
+    // pi = &dval; // as well as this
+    
+    //TODO: Continue to talk about pointer values
 
     return 0;
 }
