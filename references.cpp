@@ -19,7 +19,7 @@ int main(){
 
     int &refVal3 = refVal;
 
-    std::cout << "this is refVal3, which is bound to the same thing refval which is ival, " << refVal3<<  std::endl;
+    std::cout << "this is refVal3, which is bound to the same thing, refval, which is ival, " << refVal3<<  std::endl;
 
     return 0;
 }
