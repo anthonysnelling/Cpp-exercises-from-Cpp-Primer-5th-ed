@@ -63,7 +63,23 @@ int main(){
     // So it is generally good to only point to an object that has been initialized or make a nullptr
     // so you do not get compiler errors
 
-    // TODO: Talk about references in relation to pointers and special pointer tyoes
+    // ------ Void* pointers -----
+    // void* is a special pointer type that can hold
+    // the address of any object, it holds an address but 
+    // the type of the object at the address in unknown
+
+    double obj = 3.14, *pd = &obj;
+    void *pv = &obj; // obj can be a value of any type
+    pv = pd; // pv can hold a pointer to any type
+
+    // void* pointers can be used to 
+    // 1. compare to anpther pointer
+    // 2. pass it to or return it from another function
+    // 3. can assign to another void* pointer
+
+    // generally we use a void* pointer to deal with memory
+    // as memory, rather than access the object stored in that memory
+    
 
     return 0;
 }
