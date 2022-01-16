@@ -13,6 +13,8 @@ int main(){
         v1.push_back(val);
     }
 
+    cout << endl;
+
     int i = 0;
     while (i < v1.size())
     {   
