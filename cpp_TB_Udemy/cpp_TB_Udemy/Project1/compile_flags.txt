@@ -1,0 +1,4 @@
+-ID:\Documents\codingProjects\Cpp-exercises-from-Cpp-Primer-5th-ed\cpp_TB_Udemy\cpp_TB_Udemy\Project1
+-std=c++17
+-target
+i686-pc-windows-gnu
