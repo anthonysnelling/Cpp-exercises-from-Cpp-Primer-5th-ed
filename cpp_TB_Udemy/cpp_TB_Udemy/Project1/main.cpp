@@ -1,8 +1,11 @@
-#include <stdio.h>
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello Testing" << std::endl;
-	return 0;
+int main(){
+    int favoriteNum;
+    std::cout << "Enter your favorite number" << std::endl;
+    
+    std::cin >> favoriteNum;
+    
+    std::cout << "Wow " << favoriteNum << " is my favorite too!" << std::endl;
+    return 0;
 }

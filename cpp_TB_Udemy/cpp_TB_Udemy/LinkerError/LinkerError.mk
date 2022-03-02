@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Project1
+ProjectName            :=LinkerError
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/anthonysnelling/Documents/programmingProjects/cppProjects/Cpp-exercises-from-Cpp-Primer-5th-ed/cpp_TB_Udemy/cpp_TB_Udemy
-ProjectPath            :=/home/anthonysnelling/Documents/programmingProjects/cppProjects/Cpp-exercises-from-Cpp-Primer-5th-ed/cpp_TB_Udemy/cpp_TB_Udemy/Project1
+ProjectPath            :=/home/anthonysnelling/Documents/programmingProjects/cppProjects/Cpp-exercises-from-Cpp-Primer-5th-ed/cpp_TB_Udemy/cpp_TB_Udemy/LinkerError
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Project1.txt"
+ObjectsFileList        :="LinkerError.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  -static
@@ -93,7 +93,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/anthonysnelling/Documents/programmingProjects/cppProjects/Cpp-exercises-from-Cpp-Primer-5th-ed/cpp_TB_Udemy/cpp_TB_Udemy/Project1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/anthonysnelling/Documents/programmingProjects/cppProjects/Cpp-exercises-from-Cpp-Primer-5th-ed/cpp_TB_Udemy/cpp_TB_Udemy/LinkerError/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="cpp_TB_Udemy" Database="" Version="10000">
-  <Project Name="Project1" Path="Project1/Project1.project" Active="Yes"/>
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="LinkerError" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="LinkerError" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
