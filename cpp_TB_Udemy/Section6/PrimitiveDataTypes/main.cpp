@@ -1,10 +1,14 @@
 #include <iostream>
+#include <climits>
 
 using namespace std;
 
 int main()
 {
     // Primitive data types
+    
+    //sizeof() determines the size in bytes of a type or variable
+    cout << sizeof(char) << endl;
 
     
     /*****************************************

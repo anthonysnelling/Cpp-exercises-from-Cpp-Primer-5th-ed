@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Section6" Database="" Version="10000">
   <Project Name="InitializingVariables" Path="InitializingVariables/InitializingVariables.project" Active="No"/>
   <Project Name="GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
-  <Project Name="PrimitiveDataTypes" Path="PrimitiveDataTypes/PrimitiveDataTypes.project" Active="Yes"/>
+  <Project Name="PrimitiveDataTypes" Path="PrimitiveDataTypes/PrimitiveDataTypes.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="InitializingVariables" ConfigName="Debug"/>
       <Project Name="GlobalVariables" ConfigName="Debug"/>
       <Project Name="PrimitiveDataTypes" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="InitializingVariables" ConfigName="Release"/>
       <Project Name="GlobalVariables" ConfigName="Release"/>
       <Project Name="PrimitiveDataTypes" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
