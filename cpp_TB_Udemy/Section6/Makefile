@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ InitializingVariables - Debug ]----------"
-	@cd "InitializingVariables" && "$(MAKE)" -f  "InitializingVariables.mk"
+	@echo "----------Building project:[ PrimitiveDataTypes - Debug ]----------"
+	@cd "PrimitiveDataTypes" && "$(MAKE)" -f  "PrimitiveDataTypes.mk"
 clean:
-	@echo "----------Cleaning project:[ InitializingVariables - Debug ]----------"
-	@cd "InitializingVariables" && "$(MAKE)" -f  "InitializingVariables.mk" clean
+	@echo "----------Cleaning project:[ PrimitiveDataTypes - Debug ]----------"
+	@cd "PrimitiveDataTypes" && "$(MAKE)" -f  "PrimitiveDataTypes.mk" clean
